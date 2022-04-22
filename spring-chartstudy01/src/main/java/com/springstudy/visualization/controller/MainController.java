@@ -26,6 +26,7 @@ public class MainController {
 	@Autowired
 	public void setService(VisualizationService service) {
 		this.service = service;
+		//dsfjiodsjfiodsjifodsjfiofdjiosdfjifdsodsfjiosdjisdofsfdjio
 	}
 	
 	@RequestMapping(value = "/cancer")
