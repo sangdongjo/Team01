@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 980px;
+	margin: 0px auto;
+	font-size: 12px;
+}
+
+.clear {
+	clear: both;
+}
+
+/* 링크 설정 */
+a:link {
+	text-decoration: none;
+	color: #333;	
+}
+ a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: underline;	
+	color: red;	
+}
+a:active {
+	text-decoration: none;
+	color: blue;
+}
+
+/* header */
+header { 
+	margin-top: 20px; 
+	border-bottom: 1px dashed blue;
+	height: 80px; 
+}
+header img { border: none; }
+header #logo {
+	margin-left: 10px;
+	float: left;
+}
+header #header_link {
+	float: right;
+	margin-right: 10px;	
+	width: 500px;	
+}
+header #header_link span {
+	display: inline-block;
+	padding: 0 8px;	
+	border-right: 1px solid #999;
+}
+header #header_link ul { float: right; list-style: none; }
+header #header_link li {
+	float: left;
+	padding: 0 8px;	
+	border-right: 1px solid #999;
+}
+header #header_link ul li.no_line { border-right: none; }
+
+/* footer */
+footer {	
+	border-top: 1px dotted blue;
+}
+footer #footer_info {
+	margin: 10px auto;	
+	line-height: 1.5em;	
+	text-align: center;
+	width: 600px;
+}
+
+/* content */
+article{
+	margin: 30px auto 0px;
+	min-height: 500px;	
+}
+
+/* cancer chart title */
+h1 { width: 800px; 	margin: 10px auto; }
+
+.chartDiv { margin: 20px auto; }
+
+/* main page sample chart */
+#mainChart { 	width: 725px; height: 500px; margin: 30px auto; }
+.zing_url { display: none; }
+
+/* 대장암 발병 현황 */
+#cancerChart { width: 800px; height: 600px; }
+
+/* 커피숍 현황 */
+#coffeeShopChart { width: 800px; height: 600px; }
+
+/* 연령별 인구변화 */
+#popChart { width: 1000px; 	height: 700px; }
+
